@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Secret Love Letter</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💌</text></svg>"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-wrapper">
+      <div class="wrapper">
+        <div class="passcode-screen">
+          <h2>How Many Kisses I've Given You? 💋</h2>
+          <input
+            type="number"
+            id="passcode"
+            placeholder="Enter number..."
+            min="0"
+            autocomplete="off"
+            inputmode="numeric"
+          />
+          <div class="error-container">
+            <span id="error-msg"></span>
+          </div>
+          <button id="submit-btn">moah</button>
+        </div>
+
+        <div class="content">
+          <div class="envelope-wrapper">
+            <div class="envelope">
+              <div class="envelope-flap"></div>
+              <div class="heart"></div>
+              <div class="letter">
+                <button class="close-btn">✕</button>
+                <div class="text" id="letter-content"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      Made by
+      <a href="https://github.com/blind3d3vil" target="_blank">Dropkiler</a>
+    </div>
+
+    <!-- Load configuration first -->
+    <script src="./js/config.js"></script>
+
+    <!-- Then load the main script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
