@@ -53,7 +53,7 @@ Don't worry, your message stays secret:
 
 ## Live Demo
 
-See the love letter in action: [Live Demo](https://blind3d3vil.github.io/envelope/)
+See the love letter in action: [Live Demo](https://blind3d3vil.github.io/Envelope-2.0/)
 
 Want to create your own? Fork this repository and customize it for your special someone!
 
